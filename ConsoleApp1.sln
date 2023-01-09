@@ -13,11 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conditionalOperators", "con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepetitionStatements", "RepetitionStatements\RepetitionStatements.csproj", "{C970483B-7923-4723-8896-3BB5CA0530B8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1 Question1", "Assignment1 Question1\Assignment1 Question1.csproj", "{697B5ABC-50D2-4DE3-8B11-747365C983D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1Question1", "Assignment1 Question1\Assignment1Question1.csproj", "{697B5ABC-50D2-4DE3-8B11-747365C983D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1 Question2", "Assignment1 Question2\Assignment1 Question2.csproj", "{D1D1F391-813F-40D4-B0A3-470AC4DDA794}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1Question2", "Assignment1 Question2\Assignment1Question2.csproj", "{D1D1F391-813F-40D4-B0A3-470AC4DDA794}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1 Question3", "Assignment1 Question3\Assignment1 Question3.csproj", "{4D2CBA92-50E6-4CC4-8695-2004787E81E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1Question3", "Assignment1 Question3\Assignment1Question3.csproj", "{4D2CBA92-50E6-4CC4-8695-2004787E81E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
