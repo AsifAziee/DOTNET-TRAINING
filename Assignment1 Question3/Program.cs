@@ -1,6 +1,5 @@
 ﻿int num = 0;
 int n = 5;
-//int gussedAnswer = 27;
 
 Random rd = new Random();
 int rand_num = rd.Next(0, 100); // random number generated between (0-100)
