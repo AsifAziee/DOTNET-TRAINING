@@ -19,13 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "helloWorld", "helloWorld\he
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathematicalOperators", "MathematicalOperators\MathematicalOperators.csproj", "{68733A3B-7AEB-4561-A28A-F1CBE7D6C45E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedConstructs", "AdvancedConstructs\AdvancedConstructs.csproj", "{6848D692-CBB4-4C53-B6F8-989905762D17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedConstructs", "AdvancedConstructs\AdvancedConstructs.csproj", "{6848D692-CBB4-4C53-B6F8-989905762D17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{8758A5EB-8BD1-4280-B8B0-CDC656EB3FE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{8758A5EB-8BD1-4280-B8B0-CDC656EB3FE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeFunctionality", "DateTimeFunctionality\DateTimeFunctionality.csproj", "{58EEC4DC-0792-4E80-9954-8D8401D1C337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeFunctionality", "DateTimeFunctionality\DateTimeFunctionality.csproj", "{58EEC4DC-0792-4E80-9954-8D8401D1C337}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2Assignment", "Day2Assignment\Day2Assignment.csproj", "{C5A7174D-D1ED-44C1-860A-BF3FF1C8F36E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day2Assignment", "Day2Assignment\Day2Assignment.csproj", "{C5A7174D-D1ED-44C1-860A-BF3FF1C8F36E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
