@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "Strin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeFunctionality", "DateTimeFunctionality\DateTimeFunctionality.csproj", "{58EEC4DC-0792-4E80-9954-8D8401D1C337}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2Assignment", "Day2Assignment\Day2Assignment.csproj", "{C5A7174D-D1ED-44C1-860A-BF3FF1C8F36E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{58EEC4DC-0792-4E80-9954-8D8401D1C337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58EEC4DC-0792-4E80-9954-8D8401D1C337}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58EEC4DC-0792-4E80-9954-8D8401D1C337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A7174D-D1ED-44C1-860A-BF3FF1C8F36E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A7174D-D1ED-44C1-860A-BF3FF1C8F36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A7174D-D1ED-44C1-860A-BF3FF1C8F36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A7174D-D1ED-44C1-860A-BF3FF1C8F36E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
