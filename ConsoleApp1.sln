@@ -29,6 +29,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day2Assignment", "Day2Assig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPConcepts", "OOPConcepts\OOPConcepts.csproj", "{B9195F16-ECDA-480A-BAF9-E6347D1CF21A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryBasedAddressBook", "MemoryBasedAddressBook\MemoryBasedAddressBook.csproj", "{EE5D1FA4-8CC1-4A76-AEDC-BF0FCB7926BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFile", "TestFile\TestFile.csproj", "{D7C367BE-5DCC-4781-B690-9F968528FF50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{002FE122-BED6-454C-A6CD-69A7C9E84E86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +93,18 @@ Global
 		{B9195F16-ECDA-480A-BAF9-E6347D1CF21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9195F16-ECDA-480A-BAF9-E6347D1CF21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9195F16-ECDA-480A-BAF9-E6347D1CF21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE5D1FA4-8CC1-4A76-AEDC-BF0FCB7926BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5D1FA4-8CC1-4A76-AEDC-BF0FCB7926BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5D1FA4-8CC1-4A76-AEDC-BF0FCB7926BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5D1FA4-8CC1-4A76-AEDC-BF0FCB7926BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C367BE-5DCC-4781-B690-9F968528FF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C367BE-5DCC-4781-B690-9F968528FF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C367BE-5DCC-4781-B690-9F968528FF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C367BE-5DCC-4781-B690-9F968528FF50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{002FE122-BED6-454C-A6CD-69A7C9E84E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002FE122-BED6-454C-A6CD-69A7C9E84E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002FE122-BED6-454C-A6CD-69A7C9E84E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002FE122-BED6-454C-A6CD-69A7C9E84E86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

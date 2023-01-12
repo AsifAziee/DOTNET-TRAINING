@@ -1,0 +1,1 @@
+﻿public record ShoppingItems(string Name, int Quantity,int Price);
