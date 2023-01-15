@@ -27,13 +27,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeFunctionality", "Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day2Assignment", "Day2Assignment\Day2Assignment.csproj", "{C5A7174D-D1ED-44C1-860A-BF3FF1C8F36E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPConcepts", "OOPConcepts\OOPConcepts.csproj", "{B9195F16-ECDA-480A-BAF9-E6347D1CF21A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPConcepts", "OOPConcepts\OOPConcepts.csproj", "{B9195F16-ECDA-480A-BAF9-E6347D1CF21A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryBasedAddressBook", "MemoryBasedAddressBook\MemoryBasedAddressBook.csproj", "{EE5D1FA4-8CC1-4A76-AEDC-BF0FCB7926BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryBasedAddressBook", "MemoryBasedAddressBook\MemoryBasedAddressBook.csproj", "{EE5D1FA4-8CC1-4A76-AEDC-BF0FCB7926BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFile", "TestFile\TestFile.csproj", "{D7C367BE-5DCC-4781-B690-9F968528FF50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestFile", "TestFile\TestFile.csproj", "{D7C367BE-5DCC-4781-B690-9F968528FF50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{002FE122-BED6-454C-A6CD-69A7C9E84E86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{002FE122-BED6-454C-A6CD-69A7C9E84E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrenchDeck", "FrenchDeck\FrenchDeck.csproj", "{D1B3C069-8506-4B6D-BFCE-A827B57BE7BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankStatementAnalyser", "BankStatementAnalyser\BankStatementAnalyser.csproj", "{6764FF10-2844-4FC1-AE40-44EAF3B08FFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{002FE122-BED6-454C-A6CD-69A7C9E84E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{002FE122-BED6-454C-A6CD-69A7C9E84E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{002FE122-BED6-454C-A6CD-69A7C9E84E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B3C069-8506-4B6D-BFCE-A827B57BE7BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B3C069-8506-4B6D-BFCE-A827B57BE7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B3C069-8506-4B6D-BFCE-A827B57BE7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B3C069-8506-4B6D-BFCE-A827B57BE7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6764FF10-2844-4FC1-AE40-44EAF3B08FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6764FF10-2844-4FC1-AE40-44EAF3B08FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6764FF10-2844-4FC1-AE40-44EAF3B08FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6764FF10-2844-4FC1-AE40-44EAF3B08FFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
