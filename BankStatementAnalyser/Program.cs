@@ -1,31 +1,16 @@
-﻿using System.Globalization;
+﻿using System.Data.Common;
+using System;
+using System.Globalization;
+using System.Reflection;
 
 
 Statement bankStatement = new Statement();
+string[] lines = System.IO.File.ReadAllLines(@"C:\Users\test\Downloads\testdoc\test.csv");
+string[] column;
+string[] date;
 
 void ReadFromFile()
 {
-    string[] lines = System.IO.File.ReadAllLines(@"C:\Users\test\Downloads\testdoc\test.csv");
-
-    string[] column;
-    string[] date;
-
-
-    Console.WriteLine("Current Bank Statements: ");
-    Console.WriteLine();
-    foreach (string line in lines)
-    {
-
-        Console.WriteLine(line);
-    }
-    Console.WriteLine();
-    Console.WriteLine("Press any key for.");
-    Console.WriteLine();
-    Console.WriteLine("Total Account Balance:");
-    Console.WriteLine("Net Balance on Specific month");
-    Console.WriteLine();
-    System.Console.ReadKey();
-
     int index = 0;
     while (index < lines.Length)
     {
@@ -37,24 +22,31 @@ void ReadFromFile()
         DateTime transactionDate = DateTime.Parse($"{date[2]}/{date[1]}/{date[0]}", CultureInfo.InvariantCulture);
         DateOnly dateOnly = DateOnly.FromDateTime(transactionDate);
 
-        BankTransaction transaction = new BankTransaction(dateOnly, amount);
+        BankTransaction transaction = new BankTransaction(dateOnly, amount, column[2]);
         bankStatement.AddStatement(transaction);
         index++;
+
     }
 }
-//void ParticularTransaction()
-//{
-//    x[]= bankStatement.PrintBalance();
-//    foreach (var transaction in x)
-//    {
-
-//    }
-//}
+void MonthlyBalance()
+{
+    //Console.WriteLine("enter date");
+    //int month 
+    DateOnly StartMonth = new DateOnly( 2022, 2 ,1);
+    DateOnly EndMonth = new DateOnly(2022, 2, 28);
+    double amount = bankStatement.GetBalanceOn(StartMonth, EndMonth);
+    Console.WriteLine($"balance for month feb :{amount}");
+}
 try
 {
     ReadFromFile();
+    Console.WriteLine($"Current Statement :");
+    Console.WriteLine();
+    bankStatement.PrintBalance();
+    Console.WriteLine();
     Console.WriteLine($"Your current total Balance is :{bankStatement.GetBalance()}");
-    
+    MonthlyBalance();
+
 }
 catch (Exception)
 {

@@ -22,17 +22,22 @@
         }
         return balance;
     }
-    //public DateOnly GetBalanceOn()
-    //{
-    //    foreach(var item in _bankTransactions)
-    //    {
-    //        if (item.Date[1] == )
-    //        {
+    public double GetBalanceOn(DateOnly startMonth, DateOnly endMonth)
+    {
+        double monthbalance = 0.0;
+        foreach (var item in _bankTransactions)
+        {
+            if (item.Date >= startMonth && item.Date<= endMonth)
+            {
+                if(item.Balance > 0)
+                {
+                    monthbalance = monthbalance + item.Balance;
+                }
+            }
+        }
+        return monthbalance;
+    }
 
-    //        }
-    //    }
-    //}
-    
     public void PrintBalance()
     {
         foreach(var item in _bankTransactions)

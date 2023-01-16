@@ -1,2 +1,2 @@
-﻿public record BankTransaction(DateOnly Date, double Balance);
+﻿public record BankTransaction(DateOnly Date, double Balance, string state);
 
